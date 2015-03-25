@@ -1,5 +1,5 @@
 # terminal_and_vim_colorSet
-設定自己在用的terminal color 與 使用vim時的編輯顏色<br>
+設定terminal color 與 使用vim時的編輯顏色<br>
 Setting "terminal color" and "vim color" in mac computer.<br>
 
 此repository底下只有兩個bash<br>
