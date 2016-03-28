@@ -21,10 +21,10 @@ sh set_ternimal_read_color
 ——————start vim color——————
 syntax on
 set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
-set number
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+set nonumber
 set cindent
 set autoindent
 set hlsearch
