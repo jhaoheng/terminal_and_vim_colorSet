@@ -2,13 +2,23 @@
 
 http://apple.stackexchange.com/questions/9821/can-i-make-my-mac-os-x-terminal-color-items-according-to-syntax-like-the-ubuntu
 
-## install theme
+## first : install theme
 
 **tanner.terminal**
 
 - setting default theme
 
-## other tweaks
+## second : copy & set
+
+- `cp terminal_config ~/.terminal_config`
+- `echo "source .terminal_config" >> .profile`
+
+Finish!!
+
+--
+
+# about 'terminal_config' 
+## tweaks
 
 - Adding this to the file ~/.profile will make ls color it's output by default.
 
