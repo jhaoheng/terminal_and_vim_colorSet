@@ -11,7 +11,8 @@ http://apple.stackexchange.com/questions/9821/can-i-make-my-mac-os-x-terminal-co
 ## second : copy & set
 
 - `cp terminal_config ~/.terminal_config`
-- `echo "source .terminal_config" >> .profile`
+- get `.terminal_config` path : `pwd`
+- `echo "source {path}/.terminal_config" >> .profile`
 
 Finish!!
 
