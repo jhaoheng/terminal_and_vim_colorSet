@@ -1,37 +1,14 @@
-## source
+# install 'tanner.terminal'
+- double click `tanner.terminal`
+- go to terminal preference and make `tanner` default
 
-http://apple.stackexchange.com/questions/9821/can-i-make-my-mac-os-x-terminal-color-items-according-to-syntax-like-the-ubuntu
-
-## first : install theme
-
-**tanner.terminal**
-
-- setting default theme
-
-## second : copy & set
-
-- `cp terminal_config ~/.terminal_config`
-- get `.terminal_config` path : `pwd`
-- `echo "source {path}/.terminal_config" >> .profile`
-
-Finish!!
-
---
-
-# about 'terminal_config' 
-## tweaks
-
-- Adding this to the file ~/.profile will make ls color it's output by default.
+# config
+> set below configure at `~/.bashrc` or `~/.bash_profile` or `~/.profile`
 
 ```
-# Make ls use colors
 export CLICOLOR=1
 alias ls='ls -Fa'
-```
 
-Adding this will define colors as variables to make a prompt easier to edit.
-
-```
 # define colors
 C_DEFAULT="\[\033[m\]"
 C_WHITE="\[\033[1m\]"
@@ -58,11 +35,7 @@ C_BG_BLUE="\[\033[44m\]"
 C_BG_PURPLE="\[\033[45m\]"
 C_BG_CYAN="\[\033[46m\]"
 C_BG_LIGHTGRAY="\[\033[47m\]"
-```
 
-Adding this will give you a multi-line colored prompt.
-
-```
 # set your prompt
-export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w\n$C_DARKGRAY\$$C_DEFAULT "
+export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w\n$C_DARKGRAY\$$C_DEFAULT" 
 ```
